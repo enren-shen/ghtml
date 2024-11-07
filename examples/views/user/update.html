@@ -1,0 +1,18 @@
+{{define "user/update-head"}}
+<style>
+    h1{background:yellow}
+</style>
+<script>
+    function update(){
+        alert("updated!!!")
+    }
+</script>
+{{end}}
+<h2>update</h2>
+<button type="button" id="btn">UpdateUser</button>
+<!--javascript-->
+{{define "user/update-body"}}
+<script>
+    document.getElementById("btn").onclick = update
+</script>
+{{end}}

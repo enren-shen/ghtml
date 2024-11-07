@@ -1,0 +1,18 @@
+{{define "user/create-head"}}
+<style>
+    h1{background:#ccc}
+</style>
+<script>
+    function show(message){
+        alert(message)
+    }
+</script>
+{{end}}
+<h2>create</h2>
+<button type="button" onclick="show('ok')">CreateUser</button>
+<!--javascript-->
+{{define "user/create-body"}}
+<script>
+    console.log("javascript")
+</script>
+{{end}}
