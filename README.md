@@ -44,7 +44,12 @@ func main() {
 
 	r.Run("127.0.0.1:8080")
 }
+<<<<<<< HEAD
 
 function b(){
     
 }
+=======
+function a(){
+}
+>>>>>>> bb8cef13aa2a337d45d76e3b0c784787353d4589
