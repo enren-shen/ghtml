@@ -7,7 +7,6 @@ The gin framework template view is not friendly to layout references, which is a
 go get -u github.com/enren-shen/ghtml
 
 ```
-import "github.com/enren-shen/ghtml"
 
 * Running GHTML
 
